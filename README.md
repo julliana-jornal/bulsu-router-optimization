@@ -7,7 +7,7 @@ Based on the MILP optimization, **16 routers** are required to provide full cove
 
 ## Files Included
 * **`milp_solver.m`**: The MATLAB script that formulates and solves the CMDS model using Mixed-Integer Linear Programming (MILP) via the `intlinprog` solver.
-* **`graphs.jpynb`**: The Jupyter Notebook used for graph generation, visualizing the demand nodes, candidate nodes, and connectivity based on the 9-meter coverage radius.
+* **`graphs.ipynb`**: The Jupyter Notebook used for graph generation, visualizing the demand nodes, candidate nodes, and connectivity based on the 9-meter coverage radius.
 
 ## Requirements
 * **MATLAB**: Requires the Optimization Toolbox (specifically `intlinprog`).
