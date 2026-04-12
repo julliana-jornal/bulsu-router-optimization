@@ -6,9 +6,9 @@ This repository contains the code and models used for the study: **"Applying Gra
 Based on the MILP optimization, **16 routers** are required to provide full coverage of the entire library area.
 
 ## Files Included
-* **`[Insert MATLAB filename].m`**: The MATLAB script that formulates and solves the CMDS model using Mixed-Integer Linear Programming (MILP) via the `intlinprog` solver.
-* **`[Insert Jupyter filename].ipynb`**: The Jupyter Notebook used for graph generation, visualizing the demand nodes, candidate nodes, and connectivity based on the 9-meter coverage radius.
+* **`milp_solver.m`**: The MATLAB script that formulates and solves the CMDS model using Mixed-Integer Linear Programming (MILP) via the `intlinprog` solver.
+* **`graphs.ipynb`**: The Jupyter Notebook used for graph generation, visualizing the demand nodes, candidate nodes, and connectivity based on the 9-meter coverage radius.
 
 ## Requirements
 * **MATLAB**: Requires the Optimization Toolbox (specifically `intlinprog`).
-* **Python**: Jupyter Notebook environment with relevant graph/network libraries (e.g., `NetworkX`, `Matplotlib`).
+* **Python**: Jupyter Notebook environment with relevant graph/network libraries.
